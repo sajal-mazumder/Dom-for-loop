@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* grid-template-columns: repeat(4); */
+    grid-gap: 30px;
+    margin: 20px;
+    height: 100vh;
+}
+
+.main div img{
+    width: 100%;
+    border-radius: 10px;
+    height: 225px;
+}
+
+.main div span h2{
+    /* font-family: sans-serif; */
+    text-align: center;
+}
+
+.main div span p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
