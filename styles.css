@@ -13,6 +13,11 @@
     height: 100vh;
 }
 
+.back{
+    background-color: rgba(64, 224, 208, 0.562);
+    border-radius: 10px;
+}
+
 .main div img{
     width: 100%;
     border-radius: 10px;
